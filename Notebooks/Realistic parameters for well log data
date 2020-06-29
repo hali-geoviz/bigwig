@@ -1,7 +1,7 @@
 -	Calliper: 6-16 inches
 -	Bit size: 6-16 inches
 -	Gamma ray: 0-150 API
--	Resistivity: 0.2 – 2000 ohm.m (log scale)
+-	Resistivity: 0.2 – 2000 ohm.m (log scale, plot shallow, middle and deep together)
 -	Sonic velocity: 40 - 160 ms/ft (reverse scale when plotting)
 -	Neutron porosity: -0.03 - 0.57 v/v (reverse scale, plot together with density)
 -	Density: 1.75 – 2.75 g/cm3
