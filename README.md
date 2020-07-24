@@ -2,7 +2,7 @@
 Summer student well log data visualization
 
 Assignment
-How to visualize and statistically compare huge amount of well data OPEN SOURCE
+- How to visualize and statistically compare huge amount of well data OPEN SOURCE
 
 Our problem/task has been based on open source data. Our mentor Ashley Russell presented us two possible ways to collect data from open source. First option was open source well data from the Australian Government and the second option was creating fake well data as las.files. We started to look in the Australian database because we wanted to get an idea of how the las.files is written and learn how well logs are set up. It turned out that it would take some time if we were to find thousands of wells in the database that had a good composite. Therefore we changed our focus and started to create fake las.files. We manage to create a program that could generate fake well data fast. In our fake well data, we created values for 9 parameters
 
@@ -18,18 +18,18 @@ Our 9 parameters we were supposed to focus on:
 - Bit Size
 
 Team members
-Amalie Sande Rødde: 4th year Geology student at University of Bergen. 
-Hans Christian Walker: Master degree in petroleum technology with specialization in natural gas at University of Stavanger. 
-Sebastian Ægidius:
-Tobias Hermansen: 4th year Geology student at University of Bergen. 
-Vetle Nevland: 2nd year Geophysics student at University of Oslo. 
+- Amalie Sande Rødde: 4th year Geology student at University of Bergen. 
+- Hans Christian Walker: Master degree in petroleum technology with specialization in natural gas at University of Stavanger. 
+- Sebastian Ægidius:
+- Tobias Hermansen: 4th year Geology student at University of Bergen. 
+- Vetle Nevland: 2nd year Geophysics student at University of Oslo. 
 
 Who did what?
-Amalie: Visualization, research, testing
-Hans Christian: Visualization, research, testing
-Sebastian: Coding, research
-Tobias: Visualization, research, testing
-Vetle: Coding, research
+- Amalie: Visualization, research, testing
+- Hans Christian: Visualization, research, testing
+- Sebastian: Coding, research
+- Tobias: Visualization, research, testing
+- Vetle: Coding, research
 
 What the code will give you
 - Well logs, histogram and scatterplot
@@ -56,5 +56,5 @@ RUNBOOK - guide of how you could run through the code:
   - The second alternative you will be able to compare two scatterplots. You can choose how many wells each scatterplot should contain. Beneath there will be two histograms      which correspond with the axes you chose and the columns in the histograms are divided into the same wells you chose in the scatterplot.   
 
 How to read the result
-o   Did we make any assumptions?
+ - Did we make any assumptions?
   
