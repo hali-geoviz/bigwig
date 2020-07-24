@@ -17,20 +17,6 @@ Our 9 parameters we were supposed to focus on:
 - Caliper
 - Bit Size
 
-Team members
-- Amalie Sande Rødde: 4th year Geology student at University of Bergen. 
-- Hans Christian Walker: Master degree in petroleum technology with specialization in natural gas at University of Stavanger. 
-- Sebastian Ægidius:
-- Tobias Hermansen: 4th year Geology student at University of Bergen. 
-- Vetle Nevland: 2nd year Geophysics student at University of Oslo. 
-
-Who did what?
-- Amalie: Visualization, research, testing
-- Hans Christian: Visualization, research, testing
-- Sebastian: Coding, research
-- Tobias: Visualization, research, testing
-- Vetle: Coding, research
-
 What the code will give you
 - Well logs, histogram and scatterplot
 - Comparing many wells
@@ -57,4 +43,17 @@ RUNBOOK - guide of how you could run through the code:
 
 How to read the result
  - Did we make any assumptions?
-  
+
+Team members
+- Amalie Sande Rødde: 4th year Geology student at University of Bergen. 
+- Hans Christian Walker: Master degree in petroleum technology with specialization in natural gas at University of Stavanger. 
+- Sebastian Ægidius:
+- Tobias Hermansen: 4th year Geology student at University of Bergen. 
+- Vetle Nevland: 2nd year Geophysics student at University of Oslo. 
+
+Who did what?
+- Amalie: Visualization, research, testing
+- Hans Christian: Visualization, research, testing
+- Sebastian: Coding, research
+- Tobias: Visualization, research, testing
+- Vetle: Coding, research
