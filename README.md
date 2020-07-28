@@ -74,6 +74,8 @@ There is a variety of modules used in the code, some of which needs to be downlo
    - The "Find well" widget lets you choose a specific well among all possible wells, and show its location on the world map (pink circle). OBS: For this to work, you must locate the 'wells' Dropdown-widget (as part of '@interact') and change, if necessary, 'param_df' to whatever dataframe you have chosen for the "main_df"-widget (which by default is 'param_df').
    - "Alpha" sets the transparency of the curve- and scatterplot. 
    - Lastly, the "Distance" widget determines the size of the surrounding area, and then also the corresponding wells, that is included in the plotting when clicking on a well. When you click on a well, you will get information about that well (as well as other wells nearby) displayed as curveplot, scatterplot and histogram. The selected well is located in the center of the yellow circle on the map. The different colors in the scatterplot represent the different wells, and the black vertical line shows the mean value of the main parameter for the selected well. 
+   
+   <img width="476" alt="map" src="https://user-images.githubusercontent.com/67001583/88713857-395e6b00-d11c-11ea-83c6-023e4e7c7a5b.PNG">
 
 Team members
    - Amalie Sande Rødde: 4th year Geology student at University of Bergen. 
