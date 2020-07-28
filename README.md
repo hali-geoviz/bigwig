@@ -43,7 +43,8 @@ There is a variety of modules used in the code, some of which needs to be downlo
 
 **Data Management:**
 
-2. To proceed further in the code, you must choose whether you want to continue with your real wells or the fake ones. If real wells, put 0 in the input-variable 'real_or_fake'. If fake wells, put 1 in it. ![Real or fake wells](https://github.com/[equinor]/[bigwig]/[Documentation]/[Visualization]/blob/[master]/real_or_fake.png?raw=true)
+2. To proceed further in the code, you must choose whether you want to continue with your real wells or the fake ones. If real wells, put 0 in the input-variable 'real_or_fake'. If fake wells, put 1 in it. 
+<img width="486" alt="real_or_fake" src="https://user-images.githubusercontent.com/67001583/88694922-7e28d880-d101-11ea-91e7-f6a6d335d432.PNG">
 3. If you proceeded with real wells, you should run the code blocks under the 'Real well' section. In 'Structure the data' make sure that you rename the 9 relevant parameter names so each las.file has the same parameter name for each unique parameter. Then you will need to merge them into one column. Also, you need to provide the latitude and longitude values for each las.file in the lists 'list_of_lats' and 'list_of_lons', respectively. OBS: This section will be time consuming if you have many wells, as it lacks an automated functionality.
    - For huge amounts of data it will be smart to convert the las.files to Parquet format to minimize the capacity. For converting your las.files to Parquet you should run the 'Convert to Parquet' section. This allows you to upload the Parquet file into the code and sort and save it using Dask. If you want another name of the parquet file, just change real_df in 'real_df.parquet to whatever name you want.
 4. If you proceeded with fake wells, you should run the code blocks under the 'Fake wells' section. 
