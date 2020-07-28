@@ -31,7 +31,7 @@ Why Equinor want this
 RUNBOOK - guide of how you could run through the code:
 
 0. Before running the actual code you need to have Python and Jupyter Notebook installed on your computer. It's highly recommended to install Jupyter Notebook as a part of Anaconda. This is because it contains Anaconda Prompt, which is a more stable software for downloading the necessary modules.
-There is a variety of modules used in the code, some of which needs to be downloaded manually. To do this, it is recommended to use Anaconda Prompt, as this command window solves dependency issues between packages. To install a package, run: 'conda install <name_of_package>'.
+There is a variety of modules used in the code, some of which needs to be downloaded manually. For help on how to install packages through Anaconda, visit [this page](https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/installing-with-conda.html).
    - The code is divided into three main sections: Initializing well log data; Data Management; Visualization.
 
 **Initializing well log data:**
