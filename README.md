@@ -39,7 +39,7 @@ There is a variety of modules used in the code, some of which needs to be downlo
 1. You have to choose if you want to create your own las.files or collect las.files from your own database
    - If you want to create your own las.files, you should run the “Fake wells: LAS generator” code blocks. The variable 'filepath' should contain the las.file from the well that you want to use as basis for the fake data. It is important that, in this variable, you correctly navigate to the folder where the desired las.file is located. Moreover, in the variable 'all_curves' you need to apply the name for the 9 parameters exactly as they are named in the relevant las.file (in the Curve Information section).
        You will then get some input possibilities where you must choose how many las.files you want to create, start and end depth for the well, what the name of the well should     be and what name of the files should be. 
-   - If you want to run the code for las.files from your own database, you need to run the code block under "Real wells: Find and import real las-files". Here you need to adjust the 'basedir' variable to navigate to the folder where your las.file collection is located. 
+   - If you want to run the code for las.files from your own database, you need to run the code block under "Real wells: Find and import real las-files". Here you need to adjust the 'basedir' variable to navigate to the folder where your las.file collection is located. This section can give you plenty usefull data on the files you locate and create dataframes from such as file name, file path, and numbers of rows in each las file. 
 
 **Data Management:**
 
@@ -80,13 +80,13 @@ There is a variety of modules used in the code, some of which needs to be downlo
 Team members
    - Amalie Sande Rødde: 4th year Geology student at University of Bergen. 
    - Hans Christian Walker: Master degree in petroleum technology with specialization in natural gas at University of Stavanger. 
-   - Sebastian Ægidius:
+   - Sebastian Ægidius: 3rd year Electricl and Electronic student at Heriot-Watt University.
    - Tobias Hermansen: 4th year Geology student at University of Bergen. 
    - Vetle Nevland: 2nd year Geophysics student at University of Oslo. 
 
 Who did what?
    - Amalie: Visualization, research, testing
    - Hans Christian: Visualization, research, testing
-   - Sebastian: Coding, research
+   - Sebastian: programming, research
    - Tobias: Visualization, research, testing
-   - Vetle: Coding, research
+   - Vetle: programming, research
