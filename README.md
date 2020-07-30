@@ -90,6 +90,10 @@ There is a variety of modules used in the code, some of which needs to be downlo
    
    <img width="476" alt="map" src="https://user-images.githubusercontent.com/67001583/88713857-395e6b00-d11c-11ea-83c6-023e4e7c7a5b.PNG">
 
+Python modules we've experimented with, though did not end up in our finalized code:
+   - Ipyleaflet. We spent quite some time experimenting with this package. There were some cool online examples of interactive map that motivated us to experiment with it. We did manage to create a neat map with a few interactive elements. However, after more research, we realized it was lacking some interactive elements that we were interested in. It was difficult creating a varied interactive dashboard. This, combined with a weak online documentation, made us eventually abandon this package.
+   - Welly. A package with main purpose to graph well logs. Experimenting with it, we did produce some simple, yet informative well logs. However, we didn't feel like it provided any additional valuable information compared to the graphs we created with the module hvplot. And since we were already deep into hvplot, we found that it would be  unnesessary and time-consuming to find out how elements from each of these packages could be interactively connected in a dynamic map.
+
 Team members
    - Amalie Sande Rødde: 4th year Geology student at University of Bergen. 
    - Hans Christian Walker: Master degree in petroleum technology with specialization in natural gas at University of Stavanger. 
@@ -103,3 +107,4 @@ Who did what?
    - Sebastian: programming, research
    - Tobias: Visualization, research, testing
    - Vetle: programming, research
+   
